@@ -20,7 +20,7 @@ Every time the player makes a move(every time the program is executed) state of 
 
 By default the program will compile into interactive version (representig human player). The program can be compiled into AI version by adding `#define AI` into `main.c` and `interaktywna.c`.
 
-Interactive version was tested only on Windows 10 and propably will work on on Windows. The AI version was teted on both Windows and Linux.
+Interactive version was tested only on Windows 10 and (propably) will work only on Windows. The AI version was teted on both Windows and Linux.
 
 Sample interaction:
 
@@ -36,3 +36,6 @@ player1.exe phase=movement 5.txt 6.txt
 After each execution the boad will appear in terminal with instructions in Polish.
 
 In folder Boards there are some sample boards to start the game
+
+# Why is it made like that ?
+The requirment by the lecturer was to make the game in such way that there would be an interactive version, as well as a version that could be run versions made by other students.
