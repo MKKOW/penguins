@@ -1,0 +1,32 @@
+OBJS	= main.o ai.o bugs.o interaktywna.o napisy.o plansza.o
+SOURCE	= main.c ai.c bugs.c interaktywna.c napisy.c plansza.c
+HEADER	= ai.h bugs.h interaktywna.h napisy.h plansza.h
+OUT	= mma
+CC	 = gcc
+FLAGS	 = -g -c -Wall
+LFLAGS	 = 
+
+all: $(OBJS)
+	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
+
+main.o: main.c
+	$(CC) $(FLAGS) main.c 
+
+ai.o: ai.c
+	$(CC) $(FLAGS) ai.c 
+
+bugs.o: bugs.c
+	$(CC) $(FLAGS) bugs.c 
+
+interaktywna.o: interaktywna.c
+	$(CC) $(FLAGS) interaktywna.c 
+
+napisy.o: napisy.c
+	$(CC) $(FLAGS) napisy.c 
+
+plansza.o: plansza.c
+	$(CC) $(FLAGS) plansza.c 
+
+
+clean:
+	rm -f $(OBJS) $(OUT)
