@@ -38,4 +38,4 @@ After each execution the boad will appear in terminal with instructions in Polis
 In folder Boards there are some sample boards to start the game
 
 # Why is it made like that ?
-The requirment by the lecturer was to make the game in such way that there would be an interactive version, as well as a version that could be run versions made by other students.
+The requirment by the lecturer was to make the game in such way that there would be an interactive version, as well as a version that could be run against versions made by other students.
