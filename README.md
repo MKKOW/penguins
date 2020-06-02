@@ -20,7 +20,7 @@ Every time the player makes a move(every time the program is executed) state of 
 
 By default the program will compile into interactive version (representig human player). The program can be compiled into AI version by adding `#define AI` into `main.c` and `interaktywna.c`.
 
-Interactive version was tested only on Windows 10 and (propably) will work only on Windows. The AI version was teted on both Windows and Linux.
+Interactive version was tested only on Windows 10 and (propably) will work only on Windows. The AI version was tested on both Windows and Linux.
 
 Sample interaction:
 
